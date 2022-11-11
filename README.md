@@ -1,2 +1,14 @@
 # divd.community
 https://divd.community
+
+# Found a bug? Report it here:
+Contact: https://app.zerocopter.com/en/rd/f9afbf32-ce59-48ed-96f2-ac4410595aa4
+
+Preferred-Languages: en, nl, de, fr
+Expires: 2025-01-01T00:01:00.000Z
+
+# Vulnerability Disclosure Policy
+Policy: https://www.divd.nl/security/
+
+# DIVD is a non-profit organisation run by volunteers. If you want to help out as a volunteer, please free to reach out to us:
+Hiring: https://www.divd.nl/join/
