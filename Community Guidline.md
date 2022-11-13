@@ -32,13 +32,13 @@ Futile or petty debates about the code of conduct are highly discouraged. This d
 
 A simple way to remember how you're expected to act: if you can't find anything nice to say, don't say anything at all.
 
-###If you say something that is found offensive, and you are called out on it, let’s:
+### If you say something that is found offensive, and you are called out on it, let’s:
 - Listen without interruption.
 - Believe what the person is saying & do not attempt to disqualify what they have to say.
 - Ask for tips / help with avoiding making the offense in the future.
 - Apologize and ask forgiveness.
 
-###Infractions
+### Infractions
 Failing to follow the community guidelines as described in this document carries consequences.
 
 **For minor infractions, you may:**
@@ -53,31 +53,31 @@ Failing to follow the community guidelines as described in this document carries
 - Penalties will be determined by the admins. The actions taken will result from a discussion, which you may be a part of, and the consequences will be binding.
 - While infractions are being discussed, the involved users will lose their invitation privileges to ensure if they are found to have violated rules, that no new users will be added to the community on their behalf.
 
-###Privacy
+### Privacy
 - All conversations are private unless otherwise specified.
 - The only exceptions to this rule pertain to the enforcement of our code of conduct. A conversation may be shared with any member of the administrative team when a violation of the code of conduct has occurred. The conversation may then be reviewed by the entire administrative team, if necessary, to determine an appropriate resolution.
 - If you wish to share a conversation, or part of one, you must get permission from each person involved.
 
-###Best Practices
+### Best Practices
 - Stay on topic. The goal of <Service> is to facilitate discussions.
 - If you have a technical question, please try and figure it out before posting here. If you're having trouble, all questions are welcome.
 
-###Invitations
+### Invitations
   
-####Requirements
+#### Requirements
 -You must be a member currently in good standing in the community.
 
-####Who to invite
+#### Who to invite
 - Please invite people you are willing to vouch for. They are your responsibility.
 - A good rule of thumb is to invite people you've worked with, collaborated with, or know personally.
 - Skill level or experience don't matter, as long as they're genuinely trying to learn.
 - Do not invite strangers or people you've just met.
 
-####Policies
+#### Policies
 - You are responsible for those who you invite... If you invite someone who is causing issues, your future invitation requests may not be honored.
 **Please avoid inviting people in a public internet setting such as tweeting about it.**
 
-###Admins
+### Admins
 If you experience or notice abuse, harassment, discrimination, or feel unsafe, let an admin know. Here is a list of the current admins and their <Service> IDs:**
 * **First-name Last-name** - [@ <Service> ID]
 * **Name 1** - @<Service> ID
