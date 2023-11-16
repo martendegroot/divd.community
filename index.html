@@ -1,126 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>DIVD.community</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-<meta http-equiv="refresh" content="0; url=https://join.slack.com/t/divdcommunity/shared_invite/zt-2733j24ci-yQNLaefjtCMrjPgWB6dyww">
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="theme-color" content="#ffffff">
 
-  <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+    <!-- BOOTSTRAP CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- LIBRARY -->
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/foot.css">
+    <meta http-equiv="refresh" content="0; url=https://join.slack.com/t/divdcommunity/shared_invite/zt-2733j24ci-yQNLaefjtCMrjPgWB6dyww">
+</head>
+<!-- CSS -->
+<link rel="stylesheet" href="css/style.css">
+<title>DIVD.Community</title>
+</head>
 
-body {
-  background: #222;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  color: white;
-  font-family: sans-serif;
-}
-
-.glitch {
-  font-size: 8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  position: relative;
-
-  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
-    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
-
-  animation: glitch 500ms infinite;
-}
-
-.glitch span {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.glitch span:first-child {
-  animation: glitch 650ms infinite;
-  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-  transform: translate(-0.025em, -0.0125em);
-  /* color: green; */
-  opacity: 0.8;
-}
-
-.glitch span:last-child {
-  animation: glitch 375ms infinite;
-  clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
-  transform: translate(0.0125em, 0.025em);
-  /* color: red; */
-  opacity: 0.8;
-}
-
-/* https://web.dev/prefers-reduced-motion/#(bonus)-forcing-reduced-motion-on-all-websites */
-
-@keyframes glitch {
-  0% {
-    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-  14% {
-    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-  15% {
-    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
-      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-  49% {
-    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
-      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-  50% {
-    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
-      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-  99% {
-    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
-      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-  100% {
-    text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
-      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-    animation-delay: -1ms !important;
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
-    transition-delay: 0s !important;
-  }
-}
-
-</style>
 <body>
+    <header>
+        <nav class="container">
+            <ul class='nav-bar'>
+                <li class='logo'><a href="/"><img src='/divd-community-logo.png' /></a></li>
+                <input type='checkbox' id='check' />
+                <div class="menu">
+                    <li><a href="https://divd.nl/">DIVD</a></li>
+                    <li><a href="https://divd.academy/">.academy</a></li>
+                    <li><a href="https://divd.club/">.club</a></li>
+                    <li><a href="https://divd.charity/">.charity</a></li>
+                    <li><a href="https://divd.fund/">.fund</a></li>
+                    <li><a href="https://csirt.global">.global</a></li>
+                </div>
+                <label for="check" class="open-menu">&#9776; </label>
+            </ul>
+        </nav>
+    </header>
+</body>
 
-<h1 class="glitch">
-  <span aria-hidden="true">DIVD.COMMUNITY</span>
-  DIVD.COMMUNITY
-  <span aria-hidden="true">DIVD.COMMUNITY</span>
-</h1>
-<p>coming soon...</p>
-
+<div class="section-banner">
+    <div class="container">
+        <div class="div-banner">
+            <h1>Stronger together, united as one community.</h1><br />
+            <p>Eabling  aspiring ethical hackers and cybersecurity enthusiasts toward collective impact since 2019</p>
+        </div>
+        
+    </div>
+</div>
+        <div class="container">
+            
+            <div class="row equal-height">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-7">
+                    <div class="card card-yellow">
+                        <h2>BETA launch activated</h2>
+                        <p>Connecting Foundations. Empowering Tomorrow. Redirecting to the BETA.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<footer class="footer">
+    <div class="container footer-section">
+        <div class="section col-sm-12">
+            <h3>HQ Office</h3>
+            <p>Maanweg 174<br>
+                2516 AB Den Haag<br>
+                Tel.: (+31) 70 41 90 309</p>
+        </div>
+    </div>
+</footer>
 
 </body>
+<!-- BOOTSTRAP JS -->
+<script src="js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<!-- JS -->
+<script src="js/script.js"></script>
+
 </html>
