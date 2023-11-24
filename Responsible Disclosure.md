@@ -3,9 +3,13 @@ At DIVD.community, the security of our systems is very important to us. Despite 
 
 If you have found a weak spot in one of our systems, please let us know so that we can take measures as quickly as possible. We would like to work with you to better protect our users and our systems.
 
-## We ask you:
-
-- Email your findings to <Service Email Address>. Encrypt your findings with our PGP key to prevent the information from falling into the wrong hands,
+## We kindly ask you:
+- Report it here:
+  - Contact: https://app.zerocopter.com/en/rd/f9afbf32-ce59-48ed-96f2-ac4410595aa4
+  - Contact: https://app.zerocopter.com/nl/rd/f9afbf32-ce59-48ed-96f2-ac4410595aa4
+  - Contact: https://app.zerocopter.com/de/rd/f9afbf32-ce59-48ed-96f2-ac4410595aa4
+  - Contact: https://app.zerocopter.com/fr/rd/f9afbf32-ce59-48ed-96f2-ac4410595aa4
+  - Preferred-Languages: en, nl, de, fr
 - Not to abuse the problem by, for example, downloading more data than is necessary to demonstrate the leak or to view, delete, or modify data from third parties,
 - Do not share the issue with others until it is resolved and erase all confidential data obtained through the vulnerability immediately after the vulnerability is closed,
 - Not to use attacks on physical security, social engineering, distributed denial of service, spam, or third-party applications, and provide sufficient information to reproduce the problem so that we can resolve it as quickly as possible. Usually, the IP address or URL of the affected system and a description of the vulnerability will suffice, but more complex vulnerabilities may require more.
