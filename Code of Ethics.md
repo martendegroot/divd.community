@@ -59,10 +59,10 @@ For invitations, consider the following:
 To report abuse, harassment, or safety concerns, contact our admins. They act as unbiased mediators:
 
 Admins and their DIVD.community IDs:
-Winko Erades - @Winko
-Jelle Ursem - @SchizoDuckie [DIVD]
-Max van der Horst - @Max
-Victor Gevers - @Victor Gevers
-Peter Baard - @Peter Baard
+- Winko Erades - @Winko
+- Jelle Ursem - @SchizoDuckie [DIVD]
+- Max van der Horst - @Max
+- Victor Gevers - @Victor Gevers
+- Peter Baard - @Peter Baard
 
 Please note that admins will not moderate or edit community content unless necessary to resolve disputes.
