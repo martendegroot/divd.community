@@ -79,7 +79,6 @@ Failing to follow the community guidelines as described in this document carries
 
 ### Admins
 If you experience or notice abuse, harassment, discrimination, or feel unsafe, let an admin know. Here is a list of the current admins and their DIVD.community IDs:**
-* **First-name Last-name** - [@ <Service> ID]
 * **Winko Erades** - @Winko
 * **Jelle Ursem** - @SchizoDuckie [DIVD]
 * **Max van der Horst** - @Max
