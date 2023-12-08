@@ -8,6 +8,7 @@
     bottom: 0;
     height: 150px;
     width: 100%;
+    /* border-top-right-radius: 300px; footer looks bad like that */
 }
 
 .footer-section {

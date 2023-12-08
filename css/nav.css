@@ -49,6 +49,24 @@ header{
     transition: 0.3s ease;
 }
 
+.centered-list li {
+    padding: 0 10px;
+
+}
+
+.centered-list li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 15px; 
+    border-radius: 2px;
+    margin-right: 5px; 
+    float: left;
+    color: yellow;
+    transition: 0.3s ease;
+}
+
+
 /* Hamburgermenu-stijlen voor mobiele weergave */
 #check {
     display: none;
@@ -79,7 +97,6 @@ header{
         cursor: pointer;
         display: block;
     
-
     }  
     .menu {
         display: none;
@@ -122,4 +139,7 @@ header{
         padding: 10px; 
         background-color: transparent; 
     }
+
+
+
 }
